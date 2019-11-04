@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <title>BACE</title>
+    <link rel="shortcut icon" href="librerias/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="librerias/css/style_general.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|Lato|Acme"
+      rel="stylesheet"
+    />
+
+    <script src="librerias/js/jquery-1.12.4.min.js"></script>
+    <script src="librerias/js/TweenMax.min.js"></script>
+    <script src="librerias/js/detectmobilebrowser.js"></script>
+    <script src="librerias/js/ScrollMagic.min.js"></script>
+    <script src="librerias/js/plugins/jquery.ScrollMagic.min.js"></script>
+    <script src="librerias/js/plugins/animation.gsap.min.js"></script>
+    <script src="librerias/js/plugins/debug.addIndicators.min.js"></script>
+    <script src="librerias/js/sceneManager.js"></script>
+  </head>
+  <body class="fondo">
+    <div id="portrait_message" class="espacioFull">
+        <div id="portada_fondo" class="contentIMG contentIMG_cover element" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:100vh; background-image: url("librerias/images/portrait/background.png");' ></div>        
+        <div id="portada_fondo" class="contentIMG contentIMG_contain element" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:100vh; background-image: url("librerias/images/portrait/elementos.png");' ></div>        
+    </div> 
+      
+      
+    <div id="content_scroll">
+        <!--................................... PORTADA ......................................-->
+        <!--*********************************** PANTALLA 1************************************-->
+        <div id="portada" class="espacio1 centradoH centradoV page">
+            <div id="portada_fondo" class="contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/page1/img01.png");' ></div>
+            <div id="portada_img1" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/page1/img02.png");' ></div>
+            <div id="portada_img2" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page1/img03.png");' ></div>
+            <div id="portada_img3" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page1/img04.png");' ></div>
+            <div id="portada_img4" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page1/img05.png");' ></div>
+            <div id="portada_img5" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page1/img06.png");' ></div>
+            <div id="portada_img6" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page1/img07.png");' ></div>
+            <div id="portada_img6" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page1/img08.png");' ></div>
+            
+        </div>
+        <!--................................... BACE .....................................-->
+        <!--*********************************** PANTALLA 1************************************-->
+        <div id="bace1" class="espacio1 centradoH centradoV page" >                
+            <div id="bace1_img1" class="contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/page2/img01.png");' ></div>
+            <div id="bace1_img2" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/page2/img02.png");' ></div>
+            <div id="bace1_img3" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page2/img03.png");' ></div>
+            <div id="bace1_img4" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page2/img04.png");' ></div>
+            <div id="bace1_img5" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page2/img05.png");' ></div>  
+            <div id="bace1_img6" class="contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/page2/img06.png");' ></div>
+            <div id="bace1_img7" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw;  height:calc(100vw*944/1920); background-image: url("librerias/images/page2/img07.png");' ></div>
+            <div id="bace1_img8" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page2/img08.png");' ></div>
+            <div id="bace1_img9" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page2/img09.png");' ></div>
+            <div id="bace1_img10" class="aFx contentIMG" style='margin-top: 0vw; margin-left: 0vw; width:100vw; height:calc(100vw*944/1920); background-image: url("librerias/images/page2/img10.png");' ></div>  
+     
+        </div>
+
+        <!--*********************************** PANTALLA 2************************************-->
+        <div id="bace2" class="espacio1 centradoH centradoV page">
+            <div id="bace2_img1" class="contentIMG" style='background-image: url("librerias/images/page3/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace2_img2" class="contentIMG" style='background-image: url("librerias/images/page3/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace2_img3" class="contentIMG" style='background-image: url("librerias/images/page3/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace2_img4" class="contentIMG" style='background-image: url("librerias/images/page3/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace2_img5" class="contentIMG" style='background-image: url("librerias/images/page3/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace2_img6" class="contentIMG" style='background-image: url("librerias/images/page3/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace2_img7" class="contentIMG" style='background-image: url("librerias/images/page3/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace2_img8" class="contentIMG" style='background-image: url("librerias/images/page3/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace2_img9" class="contentIMG" style='background-image: url("librerias/images/page3/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace2_img10" class="contentIMG" style='background-image: url("librerias/images/page3/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+        </div>
+        <!--*********************************** PANTALLA 3************************************-->
+        <div id="bace3" class="espacio1 centradoH centradoV page" >
+            <div id="bace3_img1" class="contentIMG" style='background-image: url("librerias/images/page4/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace3_img2" class="contentIMG" style='background-image: url("librerias/images/page4/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace3_img3" class="contentIMG" style='background-image: url("librerias/images/page4/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace3_img4" class="contentIMG" style='background-image: url("librerias/images/page4/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace3_img5" class="contentIMG" style='background-image: url("librerias/images/page4/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace3_img6" class="contentIMG" style='background-image: url("librerias/images/page4/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace3_img7" class="contentIMG" style='background-image: url("librerias/images/page4/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace3_img8" class="contentIMG" style='background-image: url("librerias/images/page4/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace3_img9" class="contentIMG" style='background-image: url("librerias/images/page4/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace3_img10" class="contentIMG" style='background-image: url("librerias/images/page4/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 4************************************-->
+        <div id="bace4" class="espacio1 centradoH centradoV page" >
+                <div id="bace4_img1" class="contentIMG" style='background-image: url("librerias/images/page5/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                <div id="bace4_img2" class="contentIMG" style='background-image: url("librerias/images/page5/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                <div id="bace4_img3" class="contentIMG" style='background-image: url("librerias/images/page5/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                <div id="bace4_img4" class="contentIMG" style='background-image: url("librerias/images/page5/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                <div id="bace4_img5" class="contentIMG" style='background-image: url("librerias/images/page5/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                <div id="bace4_img6" class="contentIMG" style='background-image: url("librerias/images/page5/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                <div id="bace4_img7" class="contentIMG" style='background-image: url("librerias/images/page5/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                <div id="bace4_img8" class="contentIMG" style='background-image: url("librerias/images/page5/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                <div id="bace4_img9" class="contentIMG" style='background-image: url("librerias/images/page5/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                <div id="bace4_img10" class="contentIMG" style='background-image: url("librerias/images/page5/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                <div id="bace4_img11" class="contentIMG" style='background-image: url("librerias/images/page5/img11.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 5************************************--> 
+        <div id="bace5" class="espacio1 centradoH centradoV page" >              
+            <div id="bace5_img1" class="contentIMG" style='background-image: url("librerias/images/page6/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace5_img2" class="contentIMG" style='background-image: url("librerias/images/page6/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace5_img3" class="contentIMG" style='background-image: url("librerias/images/page6/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <video controls controlsList='nodownload' id='bace5Video1' class='element' _position='p1' style='top: 18.5vw; margin-left: -18.8vw; width: 30vw;height: 17vw;background-color: #1f1f1f;left: 38.5vw;' >
+                <source src=https://firebasestorage.googleapis.com/v0/b/clientes-spira.appspot.com/o/PMI-BACE%2FVideos%2FModulo1%2FPantalla65%2FP65%20GIF%20Modelo%20de%20Adopcio%CC%81n%20de%20Marcas.mp4?alt=media&token=b14afe69-83ed-4144-b034-b5de49696e1e type='video/mp4' autoplay= "true">
+            </video>
+
+
+
+        </div>
+        <!--*********************************** PANTALLA 6************************************-->
+        <div id="bace6" class="espacio1 centradoH centradoV page" >
+            <div id="bace6_img1" class="contentIMG" style='background-image: url("librerias/images/page7/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img2" class="contentIMG" style='background-image: url("librerias/images/page7/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img3" class="contentIMG" style='background-image: url("librerias/images/page7/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img4" class="contentIMG" style='background-image: url("librerias/images/page7/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img5" class="contentIMG" style='background-image: url("librerias/images/page7/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img6" class="contentIMG" style='background-image: url("librerias/images/page7/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img7" class="contentIMG" style='background-image: url("librerias/images/page7/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img8" class="contentIMG" style='background-image: url("librerias/images/page7/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img9" class="contentIMG" style='background-image: url("librerias/images/page7/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img10" class="contentIMG" style='background-image: url("librerias/images/page7/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img11" class="contentIMG" style='background-image: url("librerias/images/page7/img11.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img12" class="contentIMG" style='background-image: url("librerias/images/page7/img12.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace6_img13" class="contentIMG" style='background-image: url("librerias/images/page7/img13.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                       
+        </div>
+        <!--*********************************** PANTALLA 7************************************-->
+        <div id="bace7" class="espacio1 centradoH centradoV page recorte" >
+            <div id="bace7_img1" class="contentIMG" style='background-image: url("librerias/images/page8/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace7_img2" class="contentIMG" style='background-image: url("librerias/images/page8/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+        </div>
+        <!--*********************************** PANTALLA 8************************************-->
+        <div id="bace8" class="espacio1 centradoH centradoV page recorte" >
+            <div id="bace8_img1" class="contentIMG" style='background-image: url("librerias/images/page9/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace8_img2" class="contentIMG" style='background-image: url("librerias/images/page9/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace8_img3" class="contentIMG" style='background-image: url("librerias/images/page9/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace8_img4" class="contentIMG" style='background-image: url("librerias/images/page9/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace8_img5" class="contentIMG" style='background-image: url("librerias/images/page9/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace8_img6" class="contentIMG" style='background-image: url("librerias/images/page9/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace8_img7" class="contentIMG" style='background-image: url("librerias/images/page9/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace8_img8" class="contentIMG" style='background-image: url("librerias/images/page9/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace8_img9" class="contentIMG" style='background-image: url("librerias/images/page9/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace8_img10" class="contentIMG" style='background-image: url("librerias/images/page9/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace8_img11" class="contentIMG" style='background-image: url("librerias/images/page9/img11.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace8_img12" class="contentIMG" style='background-image: url("librerias/images/page9/img12.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 9************************************-->
+        <div id="bace9" class="espacio1 centradoH centradoV page" >
+            <div id="bace9_img1" class="contentIMG" style='background-image: url("librerias/images/page10/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace9_img2" class="contentIMG" style='background-image: url("librerias/images/page10/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace9_img3" class="contentIMG" style='background-image: url("librerias/images/page10/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace9_img4" class="contentIMG" style='background-image: url("librerias/images/page10/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace9_img5" class="contentIMG" style='background-image: url("librerias/images/page10/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace9_img6" class="contentIMG" style='background-image: url("librerias/images/page10/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+              
+        </div> 
+        <!--*********************************** PANTALLA 10************************************-->
+        <div id="bace10" class="espacio1 centradoH centradoV page recorte" >
+            <div id="bace10_img1" class="contentIMG" style='background-image: url("librerias/images/page11/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace10_img2" class="contentIMG" style='background-image: url("librerias/images/page11/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace10_img3" class="contentIMG" style='background-image: url("librerias/images/page11/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace10_img4" class="contentIMG" style='background-image: url("librerias/images/page11/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace10_img5" class="contentIMG" style='background-image: url("librerias/images/page11/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace10_img6" class="contentIMG" style='background-image: url("librerias/images/page11/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 11************************************-->
+        <div id="bace11" class="espacio1 centradoH centradoV page" >              
+            <div id="bace11_img1" class="contentIMG" style='background-image: url("librerias/images/page12/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace11_img2" class="contentIMG" style='background-image: url("librerias/images/page12/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace11_img3" class="contentIMG" style='background-image: url("librerias/images/page12/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace11_img4" class="contentIMG" style='background-image: url("librerias/images/page12/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace11_img5" class="contentIMG" style='background-image: url("librerias/images/page12/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace11_img6" class="contentIMG" style='background-image: url("librerias/images/page12/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace11_img7" class="contentIMG" style='background-image: url("librerias/images/page12/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+
+            <video controls controlsList='nodownload' id='bace11Video2' class='element' _position='p1' style='top: 16.5vw; margin-left: -22.5vw; width: 37vw;height: 22.5vw;background-color: #1f1f1f;left: 38.5vw;' >
+                <source src=https://firebasestorage.googleapis.com/v0/b/clientes-spira.appspot.com/o/PMI-BACE%2FVideos%2FModulo1%2FPantalla94%2Fvideo.mp4?alt=media&token=e73a0869-fbed-41ab-9092-ecb9ccbfabab type='video/mp4' autoplay= "true">
+            </video>
+
+
+        </div>
+        <!--*********************************** PANTALLA 12************************************-->
+        <div id="bace12" class="espacio1 centradoH centradoV page" >              
+            <div id="bace12_img1" class="contentIMG" style='background-image: url("librerias/images/page13/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace12_img2" class="contentIMG" style='background-image: url("librerias/images/page13/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace12_img3" class="contentIMG" style='background-image: url("librerias/images/page13/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace12_img4" class="contentIMG" style='background-image: url("librerias/images/page13/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace12_img5" class="contentIMG" style='background-image: url("librerias/images/page13/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace12_img6" class="contentIMG" style='background-image: url("librerias/images/page13/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace12_img7" class="contentIMG" style='background-image: url("librerias/images/page13/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 13************************************-->
+        <div id="bace13" class="espacio1 centradoH centradoV page" >              
+            <div id="bace13_img1" class="contentIMG" style='background-image: url("librerias/images/page14/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace13_img2" class="contentIMG" style='background-image: url("librerias/images/page14/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace13_img3" class="contentIMG" style='background-image: url("librerias/images/page14/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace13_img4" class="contentIMG" style='background-image: url("librerias/images/page14/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace13_img5" class="contentIMG" style='background-image: url("librerias/images/page14/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace13_img6" class="contentIMG" style='background-image: url("librerias/images/page14/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace13_img7" class="contentIMG" style='background-image: url("librerias/images/page14/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        </div>
+        <!--*********************************** PANTALLA 14************************************-->
+        <div id="bace14" class="espacio1 centradoH centradoV page" >              
+            <div id="bace14_img1" class="contentIMG" style='background-image: url("librerias/images/page15/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace14_img2" class="contentIMG" style='background-image: url("librerias/images/page15/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace14_img3" class="contentIMG" style='background-image: url("librerias/images/page15/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace14_img4" class="contentIMG" style='background-image: url("librerias/images/page15/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace14_img5" class="contentIMG" style='background-image: url("librerias/images/page15/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace14_img6" class="contentIMG" style='background-image: url("librerias/images/page15/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace14_img7" class="contentIMG" style='background-image: url("librerias/images/page15/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace14_img8" class="contentIMG" style='background-image: url("librerias/images/page15/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace14_img9" class="contentIMG" style='background-image: url("librerias/images/page15/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace14_img10" class="contentIMG" style='background-image: url("librerias/images/page15/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+        </div>
+        <!--*********************************** PANTALLA 15************************************-->
+        <div id="bace15" class="espacio1 centradoH centradoV page" >              
+            <div id="bace15_img1" class="contentIMG" style='background-image: url("librerias/images/page16/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace15_img2" class="contentIMG" style='background-image: url("librerias/images/page16/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace15_img3" class="contentIMG" style='background-image: url("librerias/images/page16/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace15_img4" class="contentIMG" style='background-image: url("librerias/images/page16/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+        </div>
+        <!--*********************************** PANTALLA 16************************************-->
+        <div id="bace16" class="espacio1 centradoH centradoV page" >              
+            <div id="bace16_img1" class="contentIMG" style='background-image: url("librerias/images/page17/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img2" class="contentIMG" style='background-image: url("librerias/images/page17/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img3" class="contentIMG" style='background-image: url("librerias/images/page17/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img4" class="contentIMG" style='background-image: url("librerias/images/page17/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img5" class="contentIMG" style='background-image: url("librerias/images/page17/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img6" class="contentIMG" style='background-image: url("librerias/images/page17/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img7" class="contentIMG" style='background-image: url("librerias/images/page17/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img8" class="contentIMG" style='background-image: url("librerias/images/page17/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img9" class="contentIMG" style='background-image: url("librerias/images/page17/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img10" class="contentIMG" style='background-image: url("librerias/images/page17/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img11" class="contentIMG" style='background-image: url("librerias/images/page17/img11.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img12" class="contentIMG" style='background-image: url("librerias/images/page17/img12.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img13" class="contentIMG" style='background-image: url("librerias/images/page17/img13.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img14" class="contentIMG" style='background-image: url("librerias/images/page17/img14.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img15" class="contentIMG" style='background-image: url("librerias/images/page17/img15.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img16" class="contentIMG" style='background-image: url("librerias/images/page17/img16.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img17" class="contentIMG" style='background-image: url("librerias/images/page17/img17.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img18" class="contentIMG" style='background-image: url("librerias/images/page17/img18.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img19" class="contentIMG" style='background-image: url("librerias/images/page17/img19.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace16_img20" class="contentIMG" style='background-image: url("librerias/images/page17/img20.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+
+            <div id="click1" style="cursor: pointer;width: 4vw;height: 4vw;top: 29vw;right: 12vw; background-color: transparent;"></div>
+            <div id="click2" style="cursor: pointer;width: 4vw;height: 4vw;top: 8vw;right: 23vw; background-color:transparent;"></div>
+            <div id="click3" style="cursor: pointer;width: 4vw;height: 4vw;top: 29vw;right: 20vw; background-color:transparent;"></div>
+            <div id="click4" style="cursor: pointer;width: 4vw;height: 4vw;top: 8vw;right: 23vw; background-color:transparent;"></div>
+            <div id="click5" style="cursor: pointer;width: 4vw;height: 4vw;top: 29vw;right: 29vw; background-color:transparent ;"></div>
+            <div id="click6" style="cursor: pointer;width: 4vw;height: 4vw;top: 8vw;right: 23vw; background-color:transparent;"></div>
+            <div id="click7" style="cursor: pointer;width: 4vw;height: 4vw;top: 24vw;right: 37.5vw; background-color:transparent;"></div>
+            <div id="click8" style="cursor: pointer;width: 4vw;height: 4vw;top: 8vw;right: 23vw; background-color:transparent;"></div>
+            <div id="click9" style="cursor: pointer;width: 4vw;height: 4vw;top: 34vw;right: 12vw; background-color:transparent;"></div>
+            <div id="click10" style="cursor: pointer;width: 4vw;height: 4vw;top: 8vw;right: 23vw; background-color:transparent;"></div>
+
+
+        </div>
+        <!--*********************************** PANTALLA 17************************************-->
+        <div id="bace17" class="espacio1 centradoH centradoV page" >              
+            <div id="bace17_img1" class="contentIMG" style='background-image: url("librerias/images/page18/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace17_img2" class="contentIMG" style='background-image: url("librerias/images/page18/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace17_img3" class="contentIMG" style='background-image: url("librerias/images/page18/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace17_img4" class="contentIMG" style='background-image: url("librerias/images/page18/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace17_img5" class="contentIMG" style='background-image: url("librerias/images/page18/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace17_img6" class="contentIMG" style='background-image: url("librerias/images/page18/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+        </div>
+
+        <!--*********************************** PANTALLA 18************************************-->
+        <div id="bace18" class="espacio1 centradoH centradoV page" >              
+           <div id="bace18_img1" class="contentIMG" style='background-image: url("librerias/images/page19/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+           <div id="bace18_img2" class="contentIMG" style='background-image: url("librerias/images/page19/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+           <div id="bace18_img3" class="contentIMG" style='background-image: url("librerias/images/page19/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+           <div id="bace18_img4" class="contentIMG" style='background-image: url("librerias/images/page19/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+           <div id="bace18_img5" class="contentIMG" style='background-image: url("librerias/images/page19/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+           <div id="bace18_img6" class="contentIMG" style='background-image: url("librerias/images/page19/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+        </div>
+
+        <!--*********************************** PANTALLA 19************************************-->
+        <div id="bace19" class="espacio1 centradoH centradoV page" >              
+            <div id="bace19_img1" class="contentIMG" style='background-image: url("librerias/images/page20/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img2" class="contentIMG" style='background-image: url("librerias/images/page20/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img3" class="contentIMG" style='background-image: url("librerias/images/page20/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img4" class="contentIMG" style='background-image: url("librerias/images/page20/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img5" class="contentIMG" style='background-image: url("librerias/images/page20/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>     
+            <div id="bace19_img6" class="contentIMG" style='background-image: url("librerias/images/page20/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img7" class="contentIMG" style='background-image: url("librerias/images/page20/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img8" class="contentIMG" style='background-image: url("librerias/images/page20/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img9" class="contentIMG" style='background-image: url("librerias/images/page20/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img10" class="contentIMG" style='background-image: url("librerias/images/page20/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img11" class="contentIMG" style='background-image: url("librerias/images/page20/img11.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img12" class="contentIMG" style='background-image: url("librerias/images/page20/img12.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img13" class="contentIMG" style='background-image: url("librerias/images/page20/img13.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img14" class="contentIMG" style='background-image: url("librerias/images/page20/img14.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace19_img15" class="contentIMG" style='background-image: url("librerias/images/page20/img15.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+           
+         </div>
+
+         <!--*********************************** PANTALLA 20************************************-->
+        <div id="bace20" class="espacio1 centradoH centradoV page" >              
+            <div id="bace20_img1" class="contentIMG" style='background-image: url("librerias/images/page21/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace20_img2" class="contentIMG" style='background-image: url("librerias/images/page21/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace20_img3" class="contentIMG" style='background-image: url("librerias/images/page21/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace20_img4" class="contentIMG" style='background-image: url("librerias/images/page21/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace20_img5" class="contentIMG" style='background-image: url("librerias/images/page21/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>     
+            <div id="bace20_img6" class="contentIMG" style='background-image: url("librerias/images/page21/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace20_img7" class="contentIMG" style='background-image: url("librerias/images/page21/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace20_img8" class="contentIMG" style='background-image: url("librerias/images/page21/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace20_img9" class="contentIMG" style='background-image: url("librerias/images/page21/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace20_img10" class="contentIMG" style='background-image: url("librerias/images/page21/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace20_img11" class="contentIMG" style='background-image: url("librerias/images/page21/img11.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+           
+         </div>
+
+         <!--*********************************** PANTALLA 21************************************-->
+        <div id="bace21" class="espacio1 centradoH centradoV page" >              
+            <div id="bace21_img1" class="contentIMG" style='background-image: url("librerias/images/page22/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace21_img2" class="contentIMG" style='background-image: url("librerias/images/page22/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace21_img3" class="contentIMG" style='background-image: url("librerias/images/page22/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace21_img4" class="contentIMG" style='background-image: url("librerias/images/page22/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace21_img5" class="contentIMG" style='background-image: url("librerias/images/page22/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>     
+            <div id="bace21_img6" class="contentIMG" style='background-image: url("librerias/images/page22/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace21_img7" class="contentIMG" style='background-image: url("librerias/images/page22/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+                       
+        </div>
+
+        <!--*********************************** PANTALLA 22************************************-->
+        <div id="bace22" class="espacio1 centradoH centradoV page" >              
+            <div id="bace22_img1" class="contentIMG" style='background-image: url("librerias/images/page23/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace22_img2" class="contentIMG" style='background-image: url("librerias/images/page23/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace22_img3" class="contentIMG" style='background-image: url("librerias/images/page23/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <video controls controlsList='nodownload' id='bace22Video3' class='element' _position='p1' style='top: 16.5vw; margin-left: -22.5vw; width: 37vw;height: 22.5vw;background-color: #1f1f1f;left: 38.5vw;' >
+                <source src=https://firebasestorage.googleapis.com/v0/b/clientes-spira.appspot.com/o/PMI-BACE%2FVideos%2FModulo2%2FPantalla51%2FBACE_VIDEO02PRIORIZO_20190515_V02.mp4?alt=media&token=41874425-7436-4f2c-a7f3-a55ebb787458 type='video/mp4' autoplay= "true">
+            </video>
+                                   
+        </div>
+
+        <!--*********************************** PANTALLA 23************************************-->
+        <div id="bace23" class="espacio1 centradoH centradoV page" >              
+        <div id="bace23_img1" class="contentIMG" style='background-image: url("librerias/images/page24/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        <div id="bace23_img2" class="contentIMG" style='background-image: url("librerias/images/page24/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        <div id="bace23_img3" class="contentIMG" style='background-image: url("librerias/images/page24/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        <div id="bace23_img4" class="contentIMG" style='background-image: url("librerias/images/page24/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        <div id="bace23_img5" class="contentIMG" style='background-image: url("librerias/images/page24/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        <div id="bace23_img6" class="contentIMG" style='background-image: url("librerias/images/page24/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        <div id="bace23_img7" class="contentIMG" style='background-image: url("librerias/images/page24/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        <div id="bace23_img8" class="contentIMG" style='background-image: url("librerias/images/page24/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+        <div id="bace23_img9" class="contentIMG" style='background-image: url("librerias/images/page24/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                       
+        </div>
+
+        <!--*********************************** PANTALLA 24************************************-->
+        <div id="bace24" class="espacio1 centradoH centradoV page" >              
+            <div id="bace24_img1" class="contentIMG" style='background-image: url("librerias/images/page25/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace24_img2" class="contentIMG" style='background-image: url("librerias/images/page25/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace24_img3" class="contentIMG" style='background-image: url("librerias/images/page25/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace24_img4" class="contentIMG" style='background-image: url("librerias/images/page25/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace24_img5" class="contentIMG" style='background-image: url("librerias/images/page25/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace24_img6" class="contentIMG" style='background-image: url("librerias/images/page25/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace24_img7" class="contentIMG" style='background-image: url("librerias/images/page25/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                                       
+        </div>
+
+        <!--*********************************** PANTALLA 25************************************-->
+            <div id="bace25" class="espacio1 centradoH centradoV page" >              
+            <div id="bace25_img1" class="contentIMG" style='background-image: url("librerias/images/page26/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace25_img2" class="contentIMG" style='background-image: url("librerias/images/page26/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace25_img3" class="contentIMG" style='background-image: url("librerias/images/page26/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace25_img4" class="contentIMG" style='background-image: url("librerias/images/page26/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace25_img5" class="contentIMG" style='background-image: url("librerias/images/page26/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace25_img6" class="contentIMG" style='background-image: url("librerias/images/page26/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace25_img7" class="contentIMG" style='background-image: url("librerias/images/page26/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace25_img8" class="contentIMG" style='background-image: url("librerias/images/page26/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                    
+        </div>
+
+        <!--*********************************** PANTALLA 26************************************-->
+        <div id="bace26" class="espacio1 centradoH centradoV page" >              
+            <div id="bace26_img1" class="contentIMG" style='background-image: url("librerias/images/page27/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace26_img2" class="contentIMG" style='background-image: url("librerias/images/page27/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace26_img3" class="contentIMG" style='background-image: url("librerias/images/page27/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace26_img4" class="contentIMG" style='background-image: url("librerias/images/page27/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace26_img5" class="contentIMG" style='background-image: url("librerias/images/page27/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace26_img6" class="contentIMG" style='background-image: url("librerias/images/page27/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace26_img7" class="contentIMG" style='background-image: url("librerias/images/page27/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                                   
+        </div>
+
+        <!--*********************************** PANTALLA 27************************************-->
+        <div id="bace27" class="espacio1 centradoH centradoV page" >              
+            <div id="bace27_img1" class="contentIMG" style='background-image: url("librerias/images/page28/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace27_img2" class="contentIMG" style='background-image: url("librerias/images/page28/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace27_img3" class="contentIMG" style='background-image: url("librerias/images/page28/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace27_img4" class="contentIMG" style='background-image: url("librerias/images/page28/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace27_img5" class="contentIMG" style='background-image: url("librerias/images/page28/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace27_img6" class="contentIMG" style='background-image: url("librerias/images/page28/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+                                   
+        </div>
+
+        <!--*********************************** PANTALLA 28************************************-->
+        <div id="bace28" class="espacio1 centradoH centradoV page" >              
+            <div id="bace28_img1" class="contentIMG" style='background-image: url("librerias/images/page29/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace28_img2" class="contentIMG" style='background-image: url("librerias/images/page29/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace28_img3" class="contentIMG" style='background-image: url("librerias/images/page29/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace28_img4" class="contentIMG" style='background-image: url("librerias/images/page29/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace28_img5" class="contentIMG" style='background-image: url("librerias/images/page29/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace28_img6" class="contentIMG" style='background-image: url("librerias/images/page29/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+                                   
+        </div>
+
+        <!--*********************************** PANTALLA 29************************************-->
+        <div id="bace29" class="espacio1 centradoH centradoV page" >              
+            <div id="bace29_img1" class="contentIMG" style='background-image: url("librerias/images/page30/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace29_img2" class="contentIMG" style='background-image: url("librerias/images/page30/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace29_img3" class="contentIMG" style='background-image: url("librerias/images/page30/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace29_img4" class="contentIMG" style='background-image: url("librerias/images/page30/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace29_img5" class="contentIMG" style='background-image: url("librerias/images/page30/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace29_img6" class="contentIMG" style='background-image: url("librerias/images/page30/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace29_img7" class="contentIMG" style='background-image: url("librerias/images/page30/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                                   
+        </div>
+
+        <!--*********************************** PANTALLA 30************************************-->
+        <div id="bace30" class="espacio1 centradoH centradoV page" >              
+            <div id="bace30_img1" class="contentIMG" style='background-image: url("librerias/images/page31/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace30_img2" class="contentIMG" style='background-image: url("librerias/images/page31/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace30_img3" class="contentIMG" style='background-image: url("librerias/images/page31/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace30_img4" class="contentIMG" style='background-image: url("librerias/images/page31/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace30_img5" class="contentIMG" style='background-image: url("librerias/images/page31/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace30_img6" class="contentIMG" style='background-image: url("librerias/images/page31/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace30_img7" class="contentIMG" style='background-image: url("librerias/images/page31/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace30_img8" class="contentIMG" style='background-image: url("librerias/images/page31/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+              
+            <video controls controlsList='nodownload' id='bace30Video4' class='element' _position='p1' style='top: 22.5vw; margin-left: 17.2vw; width: 30vw;height: 17vw;background-color: #1f1f1f;left: 38.5vw;' >
+                <source src=https://firebasestorage.googleapis.com/v0/b/clientes-spira.appspot.com/o/PMI-BACE%2FVideos%2FModulo3%2FPantalla35%2FGIF%20Objeciones%2029.05.mp4?alt=media&token=2a9336e8-1217-4209-ae20-9689d195dcb1 type='video/mp4' autoplay= "true">
+            </video>
+        </div>
+
+        <!--*********************************** PANTALLA 31************************************-->
+        <div id="bace31" class="espacio1 centradoH centradoV page" >              
+            <div id="bace31_img1" class="contentIMG" style='background-image: url("librerias/images/page32/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace31_img2" class="contentIMG" style='background-image: url("librerias/images/page32/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace31_img3" class="contentIMG" style='background-image: url("librerias/images/page32/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace31_img4" class="contentIMG" style='background-image: url("librerias/images/page32/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace31_img5" class="contentIMG" style='background-image: url("librerias/images/page32/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace31_img6" class="contentIMG" style='background-image: url("librerias/images/page32/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace31_img7" class="contentIMG" style='background-image: url("librerias/images/page32/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace31_img8" class="contentIMG" style='background-image: url("librerias/images/page32/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace31_img9" class="contentIMG" style='background-image: url("librerias/images/page32/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace31_img10" class="contentIMG" style='background-image: url("librerias/images/page32/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                               
+        </div>
+
+        <!--*********************************** PANTALLA 32************************************-->
+        <div id="bace32" class="espacio1 centradoH centradoV page" >              
+            <div id="bace32_img1" class="contentIMG" style='background-image: url("librerias/images/page33/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace32_img2" class="contentIMG" style='background-image: url("librerias/images/page33/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace32_img3" class="contentIMG" style='background-image: url("librerias/images/page33/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace32_img4" class="contentIMG" style='background-image: url("librerias/images/page33/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace32_img5" class="contentIMG" style='background-image: url("librerias/images/page33/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace32_img6" class="contentIMG" style='background-image: url("librerias/images/page33/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace32_img7" class="contentIMG" style='background-image: url("librerias/images/page33/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                                           
+        </div>
+
+        <!--*********************************** PANTALLA 33************************************-->
+        <div id="bace33" class="espacio1 centradoH centradoV page" >              
+            <div id="bace33_img1" class="contentIMG" style='background-image: url("librerias/images/page34/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace33_img2" class="contentIMG" style='background-image: url("librerias/images/page34/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace33_img3" class="contentIMG" style='background-image: url("librerias/images/page34/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace33_img4" class="contentIMG" style='background-image: url("librerias/images/page34/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace33_img5" class="contentIMG" style='background-image: url("librerias/images/page34/img05.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace33_img6" class="contentIMG" style='background-image: url("librerias/images/page34/img06.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace33_img7" class="contentIMG" style='background-image: url("librerias/images/page34/img07.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace33_img8" class="contentIMG" style='background-image: url("librerias/images/page34/img08.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace33_img9" class="contentIMG" style='background-image: url("librerias/images/page34/img09.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace33_img10" class="contentIMG" style='background-image: url("librerias/images/page34/img10.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace33_img11" class="contentIMG" style='background-image: url("librerias/images/page34/img11.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+                               
+        </div>
+
+        <!--*********************************** PANTALLA 34************************************-->
+        <div id="bace34" class="espacio1 centradoH centradoV page" >              
+            <div id="bace34_img1" class="contentIMG" style='background-image: url("librerias/images/page35/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace34_img2" class="contentIMG" style='background-image: url("librerias/images/page35/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+            <video controls controlsList='nodownload' id='bace34Video5' class='element' _position='p1' style='top: 17vw; margin-left: -7vw; width: 37vw;height: 22.5vw;background-color: #1f1f1f;left: 38.5vw;' >
+                <source src=https://firebasestorage.googleapis.com/v0/b/clientes-spira.appspot.com/o/PMI-BACE%2FVideos%2FModulo3%2FPantalla62%2FBACE_VIDEO03_DESARROLLO_20190607.mp4?alt=media&token=076d2e2f-e660-4520-96df-8d8f27fc73b4 type='video/mp4' autoplay= "true">
+            </video>
+            
+        </div>
+
+        <!--*********************************** PANTALLA 35************************************-->
+        <div id="bace35" class="espacio1 centradoH centradoV page" >              
+            <div id="bace35_img1" class="contentIMG" style='background-image: url("librerias/images/page36/img01.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace35_img2" class="contentIMG" style='background-image: url("librerias/images/page36/img02.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace35_img3" class="contentIMG" style='background-image: url("librerias/images/page36/img03.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            <div id="bace35_img4" class="contentIMG" style='background-image: url("librerias/images/page36/img04.png"); width: 100vw; height: calc(100vw*0.49);'></div>
+            
+                               
+        </div>
+
+
+
+    </div>
+
+
+            
+    
+    <div id="contenedorMenu">
+        <div id="menuNav">
+            <span class="indice-text">MENÚ</span>
+            <div class="btnsNav"><div id="btn1" class="navIndicador"></div><div id="btn1Tag" class="btnTag">Analizo</div></div>
+            <div class="btnsNav"><div id="btn2" class="navIndicador"></div><div id="btn2Tag" class="btnTag">Priorizo</div></div>
+            <div class="btnsNav"><div id="btn3" class="navIndicador"></div><div id="btn3Tag" class="btnTag">Desarrollo</div></div>
+            
+        </div>
+    </div>
+     <!-- 
+    <div id="contenedorMenubace">
+        <div id="menuNavbace">
+          <span class="indice-textbace">BACE</span>
+            <div class="btnsNavbace"><div id="btn1bace" class="navIndicadorbace"></div><div id="btn1Tagbace" class="btnTagbace">1860</div></div>
+            <div class="btnsNavbace"><div id="btn2bace" class="navIndicadorbace"></div><div id="btn2Tagbace" class="btnTagbace">1890</div></div>
+            <div class="btnsNavbace"><div id="btn3bace" class="navIndicadorbace"></div><div id="btn3Tagbace" class="btnTagbace">1940</div></div>
+            <div class="btnsNavbace"><div id="btn4bace" class="navIndicadorbace"></div><div id="btn4Tagbace" class="btnTagbace">1950</div></div>
+            <div class="btnsNavbace"><div id="btn5bace" class="navIndicadorbace"></div><div id="btn5Tagbace" class="btnTagbace">1980</div></div>
+            <div class="btnsNavbace"><div id="btn6bace" class="navIndicadorbace"></div><div id="btn6Tagbace" class="btnTagbace">1990</div></div>
+            <div class="btnsNavbace"><div id="btn7bace" class="navIndicadorbace"></div><div id="btn7Tagbace" class="btnTagbace">2010</div></div>
+        </div>
+    </div>
+      
+    <div id="contenedorMenuSIX">
+        <div id="menuNavSIX">
+            <span class="indice-textSIX">SIX</span>
+            <div class="btnsNavSIX"><div id="btn1SIX" class="navIndicadorSIX"></div><div id="btn1TagSIX" class="btnTagSIX">1990</div></div>
+            <div class="btnsNavSIX"><div id="btn2SIX" class="navIndicadorSIX"></div><div id="btn2TagSIX" class="btnTagSIX">2004</div></div>
+            <div class="btnsNavSIX"><div id="btn3SIX" class="navIndicadorSIX"></div><div id="btn3TagSIX" class="btnTagSIX">2010</div></div>
+            <div class="btnsNavSIX"><div id="btn4SIX" class="navIndicadorSIX"></div><div id="btn4TagSIX" class="btnTagSIX">2014</div></div>
+            <div class="btnsNavSIX"><div id="btn5SIX" class="navIndicadorSIX"></div><div id="btn5TagSIX" class="btnTagSIX">2015</div></div>
+            <div class="btnsNavSIX"><div id="btn6SIX" class="navIndicadorSIX"></div><div id="btn6TagSIX" class="btnTagSIX">2016</div></div>
+            <div class="btnsNavSIX"><div id="btn7SIX" class="navIndicadorSIX"></div><div id="btn7TagSIX" class="btnTagSIX">2017</div></div>
+            <div class="btnsNavSIX"><div id="btn8SIX" class="navIndicadorSIX"></div><div id="btn8TagSIX" class="btnTagSIX">2019</div></div>
+        </div>
+    </div>
+      
+    <div id="contenedorMenuRetail">
+        <div id="menuNavRetail">
+            <span class="indice-textRetail">RETAIL</span>
+            <div class="btnsNavRetail"><div id="btn1Retail" class="navIndicadorRetail"></div><div id="btn1TagRetail" class="btnTagRetail">Comercio</div></div>
+            <div class="btnsNavRetail"><div id="btn2Retail" class="navIndicadorRetail"></div><div id="btn2TagRetail" class="btnTagRetail">1830</div></div>
+            <div class="btnsNavRetail"><div id="btn3Retail" class="navIndicadorRetail"></div><div id="btn3TagRetail" class="btnTagRetail">1860</div></div>
+            <div class="btnsNavRetail"><div id="btn4Retail" class="navIndicadorRetail"></div><div id="btn4TagRetail" class="btnTagRetail">1930</div></div>
+            <div class="btnsNavRetail"><div id="btn5Retail" class="navIndicadorRetail"></div><div id="btn5TagRetail" class="btnTagRetail">1940</div></div>
+            <div class="btnsNavRetail"><div id="btn6Retail" class="navIndicadorRetail"></div><div id="btn6TagRetail" class="btnTagRetail">1950</div></div>
+            <div class="btnsNavRetail"><div id="btn7Retail" class="navIndicadorRetail"></div><div id="btn7TagRetail" class="btnTagRetail">1970</div></div>
+            <div class="btnsNavRetail"><div id="btn8Retail" class="navIndicadorRetail"></div><div id="btn8TagRetail" class="btnTagRetail">1990</div></div>
+            <div class="btnsNavRetail"><div id="btn9Retail" class="navIndicadorRetail"></div><div id="btn9TagRetail" class="btnTagRetail">2010</div></div>
+        </div>
+    </div>
+    -->
+      
+      
+  </body>
+  <script src="librerias/js/_main.js"></script>
+</html>
